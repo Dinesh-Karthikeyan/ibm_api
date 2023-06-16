@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent
 
 # with open("./model/hi.h5", "rb") as f:
 #     model = load_model(f)
-model = load_model('./model/hi.h5')
+model = load_model('./model/my_h5_model.h5')
 
 def predict_pipeline(arr):
 
